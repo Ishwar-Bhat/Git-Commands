@@ -1,14 +1,16 @@
-git fetch origin
-git reset --hard origin/master
-
-
-
-echo "# tester" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+First step: Give remote repo name manually
 git remote add origin https://github.com/Ishwar-Bhat/tester.git
 git push -u origin master
+
 …or push an existing repository from the command line
 git remote add origin https://github.com/Ishwar-Bhat/tester.git
 git push -u origin master
+
+
+Forced update:
+ git push -f origin master
+ 
+
+After commit and merge update local rep:
+git fetch origin
+git reset --hard origin/master
