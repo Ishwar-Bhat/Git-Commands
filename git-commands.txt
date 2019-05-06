@@ -52,7 +52,7 @@ Git stashing: ( Save changes temperarily in branch before switching branch )
 2. git stash list  => list all stashes in the rep
 3. git stash apply  => Applies the changes stored to branch
 4. git stash apply --index  =>  For staging issues ( need to check more on this command )
-5. git stash drop stash_name  => To drop stash (ex: git stash drop stash@{0})
+5. git stash drop 'stash_name'  => To drop stash (ex: git stash drop stash@{0})
 ----------------------------------------------------------------------------------------------------------------
 Adding another git account in same laptop:
 
