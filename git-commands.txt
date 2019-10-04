@@ -15,6 +15,8 @@ Init Part:
    - In ignore file mention files to be ignored
    (ex: *.log )
 7. git branch branch_name ==> Create a branch
+   git branch => List all branches
+   git branch -a => List 
 8. git checkout branchname  ==> Swith to branch
 9. git merge branchname ===> merge from branch
 10. git commit -a -m 'change without add' ==> Commit without staging
@@ -78,3 +80,5 @@ or
 
 Done!..
 -----------------------------------------------------------------------------------
+Pushing all code at once(including branches which are not checked out yet):
+
