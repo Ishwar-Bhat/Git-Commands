@@ -21,6 +21,7 @@ Init Part:
 9. git merge branchname ===> merge from branch
 10. git commit -a -m 'change without add' ==> Commit without staging
 11. git mergetool  => Open mergetool
+12. git update-index --chmod=+x foo.sh => Git change permission
 
 $ git remote add origin remote repository URL
 # Sets the new remote
